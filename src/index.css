@@ -1,0 +1,61 @@
+body {
+  font-family: 'Fredoka', sans-serif !important;
+  background-color: #FFE5E5 !important; /* Latar belakang pink pastel */
+  color: #4A4A4A;
+  margin: 0;
+  padding: 0;
+}
+
+/* Memaksa posisi menu sidebar dan area tabel berjajar rapi ke samping */
+.app-container {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* Area konten utama di sebelah kanan */
+.main-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #FFE5E5;
+}
+
+/* Menghilangkan titik bullet lingkaran hitam bawaan HTML */
+ul, li {
+  list-style-type: none !important;
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
+/* Desain Kartu Bento UI Pink yang Rapi */
+.kawaii-card {
+  background: #ffffff !important;
+  border: 3px solid #FFB7B2 !important;
+  border-radius: 20px !important;
+  box-shadow: 4px 4px 0px #FF8B94;
+  padding: 25px;
+}
+
+/* Tombol Pastel Imut */
+.btn-kawaii {
+  background-color: #FFB7B2 !important;
+  color: white !important;
+  border: 2px solid #FF8B94 !important;
+  border-radius: 15px !important;
+  font-weight: 600;
+  box-shadow: 2px 2px 0px #FF8B94;
+}
+
+.table-responsive {
+  border-radius: 18px;
+  overflow: hidden;
+  border: 3px solid #FFB7B2;
+  background: white;
+}
+
+.badge-stok {
+  border-radius: 12px;
+  padding: 6px 12px;
+  font-weight: bold;
+}
