@@ -63,3 +63,4 @@ Alamat tersebut selanjutnya dibuka melalui browser untuk melihat hasil tampilan 
 ### 5. Hasil Akhir Dashboard E-Commerce
 
 Pada tahap akhir, aplikasi Dashboard E-Commerce ditampilkan melalui browser menggunakan alamat localhost. Tampilan ini merupakan hasil dari seluruh proses pembuatan project, penyusunan komponen, serta penerapan kode program yang telah dilakukan sebelumnya.
+![responsieca1](image.png)
