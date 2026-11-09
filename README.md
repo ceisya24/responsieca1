@@ -1,16 +1,65 @@
-# React + Vite
+# Dokumentasi Pembuatan Dashboard E-Commerce
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 1. Membuat Project React Menggunakan Vite
 
-Currently, two official plugins are available:
+Tahap pertama dilakukan dengan membuka terminal pada Visual Studio Code, kemudian menjalankan perintah berikut untuk membuat project React baru:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+```bash
+npm create vite@latest responsi1 -- --template react
+```
 
-## React Compiler
+Perintah tersebut berfungsi untuk membuat project React menggunakan Vite dengan nama folder `responsi1`.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 2. Menyiapkan Folder dan Library yang Dibutuhkan
 
-## Expanding the ESLint configuration
+Setelah project berhasil dibuat, masuk ke dalam folder project dengan perintah:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+cd responsi1
+```
+
+Kemudian, lakukan instalasi library yang akan digunakan dalam pembuatan aplikasi:
+
+```bash
+npm install
+npm install bootstrap react-bootstrap
+npm install jquery
+npm install bootstrap-icons
+```
+
+Bootstrap dan React Bootstrap digunakan untuk mempermudah proses pembuatan tampilan serta komponen dashboard. Sementara itu, jQuery berfungsi sebagai library pendukung untuk manipulasi elemen, dan Bootstrap Icons digunakan untuk menambahkan ikon pada aplikasi.
+
+### 3. Membuat Susunan File Komponen Aplikasi
+
+Langkah selanjutnya yaitu membuka folder project melalui Visual Studio Code. Pada folder `src`, dibuat folder baru bernama `components` sebagai tempat penyimpanan komponen aplikasi.
+
+Di dalam folder tersebut, dibuat beberapa file berikut:
+
+- Sidebar.jsx
+- Navbar.jsx
+- ProductTable.jsx
+- ProductModal.jsx
+
+Masing-masing file memiliki tugas yang berbeda dalam membangun tampilan dashboard. Pembagian komponen ini bertujuan agar kode program lebih terstruktur, rapi, dan mudah diperbaiki apabila terjadi kesalahan.
+
+### 4. Memasukkan Kode Program dan Menjalankan Aplikasi
+
+Setelah struktur folder selesai dibuat, tahap berikutnya adalah memasukkan kode program ke setiap file sesuai dengan fungsi komponennya. Seluruh komponen kemudian dihubungkan melalui file utama `App.jsx` agar dapat ditampilkan sebagai satu aplikasi yang utuh.
+
+Jika semua kode sudah dimasukkan, jalankan aplikasi melalui terminal menggunakan perintah:
+
+```bash
+npm run dev
+```
+
+Apabila proses berhasil, Vite akan menjalankan server lokal dan menampilkan alamat berikut:
+
+```text
+http://localhost:5173/
+```
+
+Alamat tersebut selanjutnya dibuka melalui browser untuk melihat hasil tampilan dashboard yang telah dibuat.
+
+### 5. Hasil Akhir Dashboard E-Commerce
+
+Pada tahap akhir, aplikasi Dashboard E-Commerce ditampilkan melalui browser menggunakan alamat localhost. Tampilan ini merupakan hasil dari seluruh proses pembuatan project, penyusunan komponen, serta penerapan kode program yang telah dilakukan sebelumnya.
